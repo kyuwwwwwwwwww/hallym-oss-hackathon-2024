@@ -88,6 +88,14 @@
   font-style: normal;
 }
 
+.slick-dots {
+  background-color: black;
+}
+
+.main-video {
+  background-color: black;
+}
+
 .main-Information {
   background-color: black;
   color: white;
@@ -194,19 +202,10 @@
   letter-spacing: 0.1em;
 }
 
-.main-store {
-  width: 100%;
-  height: 1000px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 .main-system {
   background-color: black;
   width: 100%;
   height: 1200px;
-
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -220,7 +219,7 @@
   align-items: center; /*텍스트 가운데 정렬*/
   line-height: 1.5;
   position: absolute;
-  top: 1650px;
+  top: 1500px;
   left: 350px;
 }
 
@@ -241,7 +240,7 @@
   /*유튭 영상*/
   display: flex;
   position: absolute;
-  top: 1880px;
+  top: 1760px;
   left: 80px;
   width: 40%;
   border-radius: 2%;
@@ -251,7 +250,7 @@
   /*이미지*/
   z-index: 5;
   position: absolute;
-  top: 1920px;
+  top: 1800px;
   left: 720px;
   width: 6%;
   height: 11%;
@@ -269,7 +268,7 @@
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 1850px;
+  top: 1735px;
   left: 650px;
   height: 300px;
   width: 40%;
@@ -315,8 +314,8 @@
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 2280px;
-  left: 50px;
+  top: 2100px;
+  left: 40px;
   height: 300px;
   width: 40%;
 }
@@ -325,8 +324,8 @@
   /*이미지*/
   z-index: 5; /*사진 맨 앞으로 보내기*/
   position: absolute;
-  top: 2344px;
-  left: 120px;
+  top: 2170px;
+  left: 110px;
   width: 6%;
   height: 11%;
 }
@@ -363,7 +362,7 @@
   /*이미지*/
   z-index: 5;
   position: absolute;
-  top: 2344px;
+  top: 2170px;
   left: 720px;
   width: 6%;
   height: 11%;
@@ -381,7 +380,7 @@
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 2280px;
+  top: 2100px;
   left: 650px;
   height: 300px;
   width: 40%;
@@ -414,6 +413,7 @@
   left: 40px;
   top: 212px;
 }
+
 .main-money1 {
   width: 100%;
   height: 1000px;
@@ -452,7 +452,6 @@
 .th-1 {
   background-color: rgb(242, 92, 5);
 }
-
 .main-startups {
   width: 100%;
 }
@@ -743,7 +742,7 @@ td[colspan="4"] {
   font-size: 50px;
   position: absolute;
   left: 440px;
-  top: 2800px;
+  top: 2700px;
 }
 
 .si {
@@ -768,7 +767,7 @@ td[colspan="4"] {
   position: absolute;
   font-size: 20px;
   left: 460px;
-  top: 2875px;
+  top: 2780px;
 }
 
 .all {
@@ -786,7 +785,7 @@ td[colspan="4"] {
   transition: background-color 0.3s, color 0.3s;
   position: absolute;
   left: 530px;
-  top: 2930px;
+  top: 2840px;
 }
 
 .new {
@@ -802,14 +801,14 @@ td[colspan="4"] {
   font-size: 30px;
   position: absolute;
   left: 150px;
-  top: 3070px;
+  top: 3000px;
   padding-top: 10px;
 }
 
 .custom-table {
   position: absolute;
   left: 95px;
-  top: 3160px;
+  top: 3100px;
   border-collapse: collapse;
   width: 50%;
   margin: 20px auto;
@@ -840,6 +839,6 @@ td[colspan="4"] {
 .map {
   position: absolute;
   left: 810px;
-  top: 3070px;
+  top: 3000px;
   width: 27%;
 }
