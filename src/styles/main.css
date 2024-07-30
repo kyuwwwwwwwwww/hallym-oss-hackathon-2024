@@ -88,3 +88,256 @@
 .gram {
   font-family: "DeogonPrincess";
 }
+
+.bfImg {
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.1;
+  margin-top: 20%;
+  font-family: "DeogonPrincess";
+}
+
+.con1 {
+  color: mistyrose;
+  /* color: white; */
+  font-size: 100px;
+}
+
+.con2 {
+  color: white;
+  font-weight: bold;
+  font-size: 140px;
+  letter-spacing: 0.1em;
+}
+
+.main-system {
+  background-color: black;
+  width: 100%;
+  height: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.txt1 {
+  font-family: "NanumBarunGothic";
+  color: white;
+  display: flex;
+  flex-direction: column; /*텍스트 행으로 정렬*/
+  align-items: center; /*텍스트 가운데 정렬*/
+  line-height: 1.5;
+  position: absolute;
+  top: 1650px;
+  left: 350px;
+}
+
+.txt2 {
+  color: mistyrose;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 0.1em; /*글자 간 간격*/
+}
+
+.txt3 {
+  font-size: 70px;
+  font-weight: bolder;
+  letter-spacing: 0.1em;
+}
+
+.conan {
+  /*유튭 영상*/
+  display: flex;
+  position: absolute;
+  top: 1880px;
+  left: 80px;
+  width: 40%;
+  border-radius: 2%;
+}
+
+.be {
+  /*이미지*/
+  z-index: 5;
+  position: absolute;
+  top: 1920px;
+  left: 720px;
+  width: 6%;
+  height: 11%;
+}
+
+.box1 {
+  /*전체 박스*/
+  font-family: "NanumBarunGothic";
+  color: white;
+  background-color: white;
+  margin: 30px;
+  padding: 5px;
+  border: 4px solid black;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 1850px;
+  left: 650px;
+  height: 300px;
+  width: 40%;
+}
+
+.be1 {
+  color: darkred;
+  font-weight: 800;
+  font-size: 30px;
+  letter-spacing: 0.1em;
+  position: absolute;
+  left: 40px;
+  top: 130px;
+}
+
+.be2 {
+  color: black;
+  position: absolute;
+  font-weight: 590;
+  font-size: 20px;
+  left: 40px;
+  top: 180px;
+}
+
+.be3 {
+  color: black;
+  position: absolute;
+  font-weight: 500;
+  font-size: 20px;
+  left: 40px;
+  top: 210px;
+}
+
+.com {
+  /*전체 박스*/
+  font-family: "NanumBarunGothic";
+  color: white;
+  background-color: white;
+  margin: 30px;
+  padding: 5px;
+  border: 4px solid black;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 2280px;
+  left: 50px;
+  height: 300px;
+  width: 40%;
+}
+
+.comf {
+  /*이미지*/
+  z-index: 5; /*사진 맨 앞으로 보내기*/
+  position: absolute;
+  top: 2344px;
+  left: 120px;
+  width: 6%;
+  height: 11%;
+}
+
+.com1 {
+  color: darkred;
+  font-weight: 800;
+  font-size: 30px;
+  letter-spacing: 0.1em;
+  position: absolute;
+  left: 40px;
+  top: 130px;
+}
+
+.com2 {
+  color: black;
+  position: absolute;
+  font-size: 20px;
+  font-weight: 590;
+  left: 40px;
+  top: 180px;
+}
+
+.com3 {
+  color: black;
+  position: absolute;
+  font-size: 20px;
+  font-weight: 590;
+  left: 40px;
+  top: 210px;
+}
+
+.BBP {
+  /*이미지*/
+  z-index: 5;
+  position: absolute;
+  top: 2344px;
+  left: 720px;
+  width: 6%;
+  height: 11%;
+}
+
+.BPP {
+  /*전체 박스*/
+  font-family: "NanumBarunGothic";
+  color: white;
+  background-color: white;
+  margin: 30px;
+  padding: 5px;
+  border: 4px solid black;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 2280px;
+  left: 650px;
+  height: 300px;
+  width: 40%;
+}
+
+.BPP1 {
+  color: darkred;
+  font-weight: 800;
+  font-size: 30px;
+  letter-spacing: 0.1em;
+  position: absolute;
+  left: 40px;
+  top: 130px;
+}
+
+.BPP2 {
+  color: black;
+  position: absolute;
+  font-size: 20px;
+  font-weight: 590;
+  left: 40px;
+  top: 180px;
+}
+
+.BPP3 {
+  color: black;
+  position: absolute;
+  font-size: 20px;
+  font-weight: 590;
+  left: 40px;
+  top: 212px;
+}
+
+/* .main-store {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
