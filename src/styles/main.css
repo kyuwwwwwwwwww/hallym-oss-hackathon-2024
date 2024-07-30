@@ -25,6 +25,53 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "SBAggroB";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "LINESeedKR-Bd";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "KIMM_Bold";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/KIMM_Bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GowunDodum-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunDodum-Regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "UhBeeRice";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeRice.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "yg-jalnan";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .main-Information {
   background-color: black;
   color: white;
@@ -341,3 +388,274 @@
   justify-content: center;
   align-items: center;
 } */
+.main-startups {
+  width: 100%;
+}
+.startups {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 38px;
+  font-family: "SBAggroB";
+}
+.startups-name {
+  margin-left: 10px;
+  color: red;
+}
+.startups-information {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(146, 146, 146);
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.startups-table {
+  text-align: center;
+  margin: 20px;
+}
+
+table {
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: rgb(229, 0, 18);
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  font-family: "KIMM_Bold";
+}
+
+td {
+  text-align: center;
+  vertical-align: middle;
+  font-family: "GowunDodum-Regular";
+}
+td[colspan="1"] {
+  padding-left: 20px;
+  text-align: left;
+  width: 600px;
+  height: 50px;
+  background-color: rgb(243, 243, 243);
+  font-family: "GowunDodum-Regular";
+}
+
+td[colspan="4"] {
+  text-align: center;
+  font-family: "GowunDodum-Regular";
+}
+.td-td {
+  height: 40px;
+  color: white;
+  background-color: black;
+  font-family: "KIMM_Bold";
+}
+.td-td2 {
+  background-color: black;
+  color: white;
+  font-family: "KIMM_Bold";
+}
+
+.Inquiry {
+  background-image: url("../assets/images/Inquiry.png");
+  width: 100%;
+  height: 1000px;
+  background-color: rgba(13, 13, 13, 0.7);
+}
+
+.startups-discount {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.startups-discount:hover {
+  background-color: yellow;
+}
+
+.discount-text1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  align-items: center;
+  font-family: "yg-jalnan";
+}
+
+.discount-text2 {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 60px;
+  font-family: "UhBeeRice";
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.discount {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: red;
+}
+.Inquiry-text {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+  height: 200px;
+  align-items: center;
+  font-family: "SBAggroB";
+}
+
+.Inquiry-text2 {
+  color: white;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+}
+.form-containor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Inquiry-form {
+  justify-content: center;
+  margin-top: 40px;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 880px;
+  height: 550px;
+  background-color: white;
+  border-radius: 5%;
+  line-height: 50px;
+}
+.form-text {
+  color: red;
+  font-size: 20px;
+  margin-right: 10px;
+  font-family: "LINESeedKR-Bd";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-name {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+
+  input {
+    width: 500px;
+    height: 30px;
+    margin-left: 80px;
+    border: 1px solid #ffff;
+    box-shadow: 2px 3px 5px 0px gray;
+    border-radius: 8px;
+  }
+}
+.form-tel {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  input {
+    width: 145px;
+    height: 30px;
+    border: 1px solid #ffff;
+    box-shadow: 2px 3px 5px 0px gray;
+    border-radius: 8px;
+  }
+}
+.tel-form {
+  display: flex;
+  margin-left: 60px;
+}
+.var {
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-items: center;
+}
+.form-gps {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  input {
+    width: 500px;
+    margin-left: 5px;
+    height: 30px;
+    border: 1px solid #ffff;
+    box-shadow: 2px 3px 5px 0px gray;
+    border-radius: 8px;
+  }
+}
+
+.form-inquiry {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  input {
+    width: 500px;
+    height: 30px;
+    margin-left: 40px;
+    border: 1px solid #ffff;
+    box-shadow: 2px 3px 5px 0px gray;
+    border-radius: 8px;
+  }
+}
+
+.form-choice {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 40px;
+    width: 25px;
+    height: 50px;
+  }
+}
+.form-checkbox {
+  margin-bottom: 10px;
+  input {
+    cursor: pointer;
+  }
+}
+.form-button {
+  button {
+    width: 100%;
+    height: 40px;
+    font-family: "NPSfontBold";
+    color: white;
+    background: red;
+    border-radius: 5px;
+    border: 1px solid red;
+    cursor: pointer;
+  }
+}
+.form-button:hover {
+  button {
+    background-color: #ee4e4e;
+  }
+}
