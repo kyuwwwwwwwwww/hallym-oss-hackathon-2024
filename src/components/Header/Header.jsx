@@ -3,6 +3,8 @@ import "./Header.css";
 import Instagram from "../../assets/images/Instagram.png";
 import Youtube from "../../assets/images/Youtube.png";
 import { Link } from "react-router-dom";
+const url = "https://www.youtube.com/@kyu-ttyung";
+const url2 = "https://www.instagram.com/nkyuwan_/";
 
 const Header = () => {
   useEffect(() => {
@@ -36,14 +38,24 @@ const Header = () => {
         <span>창업문의</span>
       </div>
       <div className="Header-right">
-        <div className="Instagram">
+        <div
+          className="Instagram"
+          onClick={() => {
+            window.open(url2);
+          }}
+        >
           <img
             className="Instagram-icon"
             src={Instagram}
             alt="인스타그램 아이콘"
           />
         </div>
-        <div className="Youtube">
+        <div
+          className="Youtube"
+          onClick={() => {
+            window.open(url);
+          }}
+        >
           <img className="Youtube-icon" src={Youtube} alt="유튜브 아이콘" />
         </div>
       </div>
