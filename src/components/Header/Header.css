@@ -63,4 +63,9 @@
 
 .Youtube {
   margin-left: 10%;
+  cursor: pointer;
+}
+
+.Instagram-icon {
+  cursor: pointer;
 }

@@ -65,19 +65,21 @@ const main = () => {
     },
   ];
   return (
-    <div className="main-video">
-      <video
-        src={beef}
-        autoPlay
-        loop
-        muted
-        type="/beef.mp4"
-        className="bfImg"
-      ></video>
-      <div className="content">
-        <h1 className="con1">숯불구이전문점</h1>
-        <p className="con2">마장동 고기집</p>
-      </div>
+    <div>
+      <section className="main-video">
+        <video
+          src={beef}
+          autoPlay
+          loop
+          muted
+          type="/beef.mp4"
+          className="bfImg"
+        ></video>
+        <div className="content">
+          <h1 className="con1">숯불구이전문점</h1>
+          <p className="con2">마장동 고기집</p>
+        </div>
+      </section>
 
       <section className="main-Information">
         <div className="menu-name">마장동 고기집 메뉴안내</div>
@@ -217,8 +219,53 @@ const main = () => {
       </section>
 
       <section className="main-money1">
-        <div>수익안내</div>
+        <div className="money-text1">마장동 고기집의 안정적인 수익</div>
+        <div className="money-text2">수익안내</div>
+        <table className="money-table">
+          <thead>
+            <tr>
+              <th className="th-1">매장</th>
+              <th>전체 매장 평균</th>
+              <th>
+                고매출 매장
+                <br />
+                (테이블21)
+              </th>
+            </tr>
+          </thead>
+          <tr>
+            <td className="td3">평균 월매출</td>
+            <td className="td2">7,279만원</td>
+            <td className="td2">2억1,000만원</td>
+          </tr>
+          <tr>
+            <td className="td3"> 임대료</td>
+            <td className="td2">400만원</td>
+            <td className="td2">530만원</td>
+          </tr>
+          <tr>
+            <td className="td3">인건비</td>
+            <td className="td2">1,092만원</td>
+            <td className="td2">3,150만원</td>
+          </tr>
+          <tr>
+            <td className="td3">원재료비</td>
+            <td className="td2"> 3,275만원</td>
+            <td className="td2">9,450만원</td>
+          </tr>
+          <tr>
+            <td className="td3">기타비용</td>
+            <td className="td2">728만원</td>
+            <td className="td2">2,100만원</td>
+          </tr>
+          <tr>
+            <td className="td-td4">순이익</td>
+            <td className="td-td4">1,783만원</td>
+            <td className="td-td4">5,770만원</td>
+          </tr>
+        </table>
       </section>
+
       <section className="main-startups">
         <div className="startups">
           고기집은 역시, <div className="startups-name">마장동</div>
