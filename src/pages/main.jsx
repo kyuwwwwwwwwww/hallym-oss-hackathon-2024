@@ -126,7 +126,7 @@ const main = () => {
           allowfullscreen
         ></iframe>
         <div>
-          <img className="be" src={believe} />
+          <img className="be" src={believe} alt="believe" />
           <div className="box1">
             <h1 className="be1">믿을 수 있는 품질</h1>
             <p className="be2">마장동 고기집의 육가공 공장에서</p>
@@ -135,7 +135,7 @@ const main = () => {
         </div>
 
         <div>
-          <img className="comf" src={comfortable} />
+          <img className="comf" src={comfortable} alt="comfortable" />
           <div className="com">
             <h1 className="com1">운영의 편리함</h1>
             <p className="com2">원팩으로 납품받아 고기를 손질하거나</p>
@@ -144,7 +144,7 @@ const main = () => {
         </div>
 
         <div>
-          <img className="BBP" src={BP} />
+          <img className="BBP" src={BP} alt="comfortable" />
           <div className="BPP">
             <h1 className="BPP1">비용절감</h1>
             <p className="BPP2">손질이 완료된 원팩 납품으로 고기 담당자에</p>

@@ -218,7 +218,7 @@
   flex-direction: column; /*텍스트 행으로 정렬*/
   align-items: center; /*텍스트 가운데 정렬*/
   line-height: 1.5;
-  position: absolute;
+  padding-top: 10px;
   top: 1500px;
   left: 350px;
 }
@@ -239,11 +239,12 @@
 .conan {
   /*유튭 영상*/
   display: flex;
-  position: absolute;
-  top: 1760px;
-  left: 80px;
+  top: 1770px;
+  left: 5%;
   width: 40%;
+  height: 300px;
   border-radius: 2%;
+  position: absolute;
 }
 
 .be {
@@ -251,7 +252,7 @@
   z-index: 5;
   position: absolute;
   top: 1800px;
-  left: 720px;
+  left: 800px;
   width: 6%;
   height: 11%;
 }
@@ -261,17 +262,16 @@
   font-family: "NanumBarunGothic";
   color: white;
   background-color: white;
-  margin: 30px;
-  padding: 5px;
   border: 4px solid black;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 1735px;
-  left: 650px;
+  top: 1765px;
+  left: 775px;
   height: 300px;
   width: 40%;
+  right: 5%;
 }
 
 .be1 {
@@ -363,7 +363,7 @@
   z-index: 5;
   position: absolute;
   top: 2170px;
-  left: 720px;
+  left: 800px;
   width: 6%;
   height: 11%;
 }
@@ -373,16 +373,14 @@
   font-family: "NanumBarunGothic";
   color: white;
   background-color: white;
-  margin: 30px;
-  padding: 5px;
   border: 4px solid black;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 2100px;
-  left: 650px;
-  height: 300px;
+  top: 2130px;
+  left: 770px;
+  height: 315px;
   width: 40%;
 }
 
@@ -743,7 +741,7 @@ td[colspan="4"] {
   font-weight: 900;
   font-size: 50px;
   position: absolute;
-  left: 440px;
+  left: 35%;
   top: 2700px;
 }
 
@@ -768,7 +766,7 @@ td[colspan="4"] {
   color: gray;
   position: absolute;
   font-size: 20px;
-  left: 460px;
+  left: 36.5%;
   top: 2780px;
 }
 
@@ -786,7 +784,7 @@ td[colspan="4"] {
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
   position: absolute;
-  left: 530px;
+  left: 590px;
   top: 2840px;
 }
 
