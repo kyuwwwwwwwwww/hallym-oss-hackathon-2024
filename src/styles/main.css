@@ -380,14 +380,6 @@
   top: 212px;
 }
 
-/* .main-store {
-  width: 100%;
-  height: 1000px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-} */
 .main-startups {
   width: 100%;
 }
@@ -658,4 +650,123 @@ td[colspan="4"] {
   button {
     background-color: #ee4e4e;
   }
+}
+
+.main-store {
+  background-color: white;
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5;
+}
+
+.site {
+  display: flex;
+  flex-direction: row;
+  font-weight: 900;
+  font-size: 50px;
+  position: absolute;
+  left: 440px;
+  top: 2800px;
+}
+
+.si {
+  font-family: "NanumBarunGothic";
+  display: flex;
+  color: black;
+}
+
+.o {
+  color: white;
+}
+
+.sii {
+  font-family: "NanumBarunGothic";
+  color: red;
+  display: flex;
+}
+
+.ar {
+  font-family: "NanumBarunGothic";
+  color: gray;
+  position: absolute;
+  font-size: 20px;
+  left: 460px;
+  top: 2875px;
+}
+
+.all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  border: 2px solid red;
+  border-radius: 30px;
+  background-color: white;
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  position: absolute;
+  left: 530px;
+  top: 2930px;
+}
+
+.new {
+  font-family: "NanumBarunGothic";
+  display: flex;
+  justify-content: center;
+  padding: 0px 150px 20px;
+  color: white;
+  border: 2px solid red;
+  border-radius: 20px;
+  background-color: red;
+  height: 30px;
+  font-size: 30px;
+  position: absolute;
+  left: 150px;
+  top: 3070px;
+  padding-top: 10px;
+}
+
+.custom-table {
+  position: absolute;
+  left: 95px;
+  top: 3160px;
+  border-collapse: collapse;
+  width: 50%;
+  margin: 20px auto;
+  background-color: white;
+  text-align: center;
+}
+
+.custom-table th,
+.custom-table td {
+  border: 1px solid #9e9e9e;
+  color: black;
+  padding: 8px;
+}
+
+.custom-table th {
+  background-color: #dedede;
+  font-weight: bold;
+}
+
+.custom-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.custom-table tr:hover {
+  background-color: #ff2a2a;
+}
+
+.map {
+  position: absolute;
+  left: 810px;
+  top: 3070px;
+  width: 27%;
 }

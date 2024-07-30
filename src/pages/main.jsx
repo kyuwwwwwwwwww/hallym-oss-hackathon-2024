@@ -13,6 +13,7 @@ import beef from "../assets/images/beef.mp4";
 import believe from "../assets/images/believe.png";
 import comfortable from "../assets/images/comfortable.png";
 import BP from "../assets/images/BP.png";
+import map from "../assets/images/map.png";
 
 const main = () => {
   const settings = {
@@ -102,12 +103,6 @@ const main = () => {
           ))}
         </Slider>
       </section>
-      <section className="main-review">
-        <div>리뷰</div>
-      </section>
-      <section className="main-store">
-        <div>가맹정 현황</div>
-      </section>
 
       <section className="main-system">
         <div className="txt1">
@@ -154,9 +149,71 @@ const main = () => {
         </div>
       </section>
 
-      <section className="main-money1">
-        <div>수익안내</div>
+      <section className="main-store">
+        <div className="site">
+          <div className="si">마장동 </div>
+          <div className="o">o</div>
+          <div className="sii">가맹점 현황</div>
+        </div>
+        <p className="ar">전국에 위치한 마장동 고기집을 확인해보세요</p>
+        <a href="https://mjdgo.com/36" className="all">
+          전국 지점 보기 👆🏻{" "}
+        </a>
+        <div>
+          <p className="new">지역별 가맹점 현황</p>
+          <table className="custom-table">
+            <thead>
+              <tr>
+                <th>서울</th>
+                <th>경기</th>
+                <th>인천</th>
+                <th>대전</th>
+                <th>충북</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>48</td>
+                <td>42</td>
+                <td>22</td>
+                <td>3</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <th>충남</th>
+                <th>대구</th>
+                <th>경북</th>
+                <th>부산</th>
+                <th>울산</th>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>9</td>
+                <td>8</td>
+                <td>11</td>
+                <td>9</td>
+              </tr>
+              <tr>
+                <th>경남</th>
+                <th>광주</th>
+                <th>전북</th>
+                <th>전남</th>
+                <th>제주</th>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>3</td>
+                <td>2</td>
+                <td>7</td>
+                <td>1</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <img className="map" src={map} alt="지도이미지" />
+        </div>
       </section>
+
       <section className="main-startups">
         <div className="startups">
           고기집은 역시, <div className="startups-name">마장동</div>
