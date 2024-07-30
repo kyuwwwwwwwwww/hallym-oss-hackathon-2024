@@ -222,6 +222,7 @@ const main = () => {
 
           <img className="map" src={map} alt="지도이미지" />
         </div>
+      </section>
       <section className="main-money1">
         <div className="money-text1">마장동 고기집의 안정적인 수익</div>
         <div className="money-text2">수익안내</div>
