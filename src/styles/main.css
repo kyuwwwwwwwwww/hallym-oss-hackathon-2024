@@ -72,6 +72,22 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "양진체";
+  src: url("https://fastly.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ChosunGu";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunGu.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .main-Information {
   background-color: black;
   color: white;
@@ -99,10 +115,17 @@
   color: white;
 }
 
-.slider-contaioner {
-  width: 90%;
+.slider-container {
   display: flex;
   justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.slick-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .slice-slice {
@@ -136,6 +159,10 @@
   font-family: "DeogonPrincess";
 }
 
+.main-one {
+  background-color: black;
+}
+
 .bfImg {
   width: 100%;
   height: 100%;
@@ -167,11 +194,19 @@
   letter-spacing: 0.1em;
 }
 
+.main-store {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .main-system {
   background-color: black;
   width: 100%;
   height: 1200px;
-  display: flex;
+
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -379,15 +414,44 @@
   left: 40px;
   top: 212px;
 }
-
-/* .main-store {
+.main-money1 {
   width: 100%;
   height: 1000px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-} */
+  background-image: url("../assets/images/Money.png");
+  text-align: center;
+}
+.money-text1 {
+  padding-top: 100px;
+  color: red;
+  font-size: 30px;
+  font-family: "ChosunGu";
+}
+.money-text2 {
+  padding-top: 30px;
+  font-size: 50px;
+  font-family: "양진체";
+  font-weight: 800;
+}
+
+.td2 {
+  background-color: white;
+  width: 410px;
+  height: 72px;
+}
+.td3 {
+  background-color: rgb(238, 238, 238);
+  width: 410px;
+  height: 72px;
+}
+.td-td4 {
+  color: rgb(242, 216, 201);
+  background-color: black;
+  width: 410px;
+  height: 72px;
+}
+.th-1 {
+  background-color: rgb(242, 92, 5);
+}
 .main-startups {
   width: 100%;
 }
@@ -645,7 +709,7 @@ td[colspan="4"] {
 .form-button {
   button {
     width: 100%;
-    height: 40px;
+    height: 50px;
     font-family: "NPSfontBold";
     color: white;
     background: red;
