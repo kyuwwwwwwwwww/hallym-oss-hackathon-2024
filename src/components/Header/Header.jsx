@@ -3,6 +3,8 @@ import "./Header.css";
 import Instagram from "../../assets/images/Instagram.png";
 import Youtube from "../../assets/images/Youtube.png";
 import { Link } from "react-router-dom";
+const url = "https://www.youtube.com/@kyu-ttyung";
+const url2 = "https://www.instagram.com/nkyuwan_/";
 
 const Header = () => {
   const url = "https://www.youtube.com/@kyu-ttyung";
