@@ -28,37 +28,37 @@ const main = () => {
 
   const FoodData = [
     {
-      name: "마장동 고기집",
+      name: "마장규 고깃집",
       fname: "한우 등심",
       img: food1,
       gram: "200g (1인분)",
     },
     {
-      name: "마장동 고기집",
+      name: "마장규 고깃집",
       fname: "한우 안심",
       img: food2,
       gram: "200g (1인분)",
     },
     {
-      name: "마장동 고기집",
+      name: "마장규 고깃집",
       fname: "한우 토시살",
       img: food3,
       gram: "200g (1인분)",
     },
     {
-      name: "마장동 고기집",
+      name: "마장규 고깃집",
       fname: "한우 꽃살",
       img: food4,
       gram: "200g (1인분)",
     },
     {
-      name: "마장동 고기집",
+      name: "마장규 고깃집",
       fname: "한우 갈비살",
       img: food5,
       gram: "200g (1인분)",
     },
     {
-      name: "마장동 고기집",
+      name: "마장규 고깃집",
       fname: "한우 육회",
       img: food6,
       gram: "200g (1인분)",
@@ -66,7 +66,7 @@ const main = () => {
   ];
   return (
     <div>
-      <section className="main-video">
+      <section id="main-video" section className="main-video">
         <video
           src={beef}
           autoPlay
@@ -77,12 +77,12 @@ const main = () => {
         ></video>
         <div className="content">
           <h1 className="con1">숯불구이전문점</h1>
-          <p className="con2">마장동 고기집</p>
+          <p className="con2">마장규 고깃집</p>
         </div>
       </section>
 
-      <section className="main-Information">
-        <div className="menu-name">마장동 고기집 메뉴안내</div>
+      <section id="main-Information" section className="main-Information">
+        <div className="menu-name">마장규 고깃집 메뉴안내</div>
         <div className="menu-Description">
           <p>오직 최상급 고기만 선별</p>
           <p>최우수 참숯만 사용</p>
@@ -108,58 +108,66 @@ const main = () => {
         </Slider>
       </section>
 
-      <section className="main-system">
+      <section id="main-system" section className="main-system">
         <div className="txt1">
           <h1 className="txt2">표준화되고 안정적인 시스템</h1>
-          <p className="txt3">마장동은 다릅니다</p>
+          <p className="txt3">마장규는 다릅니다</p>
         </div>
-
-        <iframe
-          className="conan"
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/I4LVT9C6Sz4?si=r-aMJoSJtRfRxD54"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-        <div>
-          <img className="be" src={believe} alt="believe" />
-          <div className="box1">
-            <h1 className="be1">믿을 수 있는 품질</h1>
-            <p className="be2">마장동 고기집의 육가공 공장에서</p>
-            <p className="be3">최상위 품질의 고기를 선별하여 납품합니다</p>
+        <div className="system-page">
+          <div className="system-left">
+            <iframe
+              className="conan"
+              width="100%"
+              height="400"
+              src="https://www.youtube.com/embed/I4LVT9C6Sz4?si=r-aMJoSJtRfRxD54"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+            <div className="be-box">
+              <img className="comf" src={believe} alt="believe" />
+              <div className="com">
+                <h1 className="com1">믿을 수 있는 품질</h1>
+                <p className="com2">마장규 고깃집의 육가공 공장에서</p>
+                <p className="com3">최상위 품질의 고기를 선별하여 납품합니다</p>
+              </div>
+            </div>
           </div>
-        </div>
+          <div className="system-right">
+            <div className="comf-box">
+              <img className="comf" src={comfortable} alt="comfortable" />
+              <div className="com">
+                <h1 className="com1">운영의 편리함</h1>
+                <p className="com2">원팩으로 납품받아 고기를 손질하거나</p>
+                <p className="com3">썰지 않아도 운영이 가능합니다</p>
+              </div>
+            </div>
 
-        <div>
-          <img className="comf" src={comfortable} alt="comfortable" />
-          <div className="com">
-            <h1 className="com1">운영의 편리함</h1>
-            <p className="com2">원팩으로 납품받아 고기를 손질하거나</p>
-            <p className="com3">썰지 않아도 운영이 가능합니다</p>
-          </div>
-        </div>
-
-        <div>
-          <img className="BBP" src={BP} alt="comfortable" />
-          <div className="BPP">
-            <h1 className="BPP1">비용절감</h1>
-            <p className="BPP2">손질이 완료된 원팩 납품으로 고기 담당자에</p>
-            <p className="BPP3">들어가는 인건비용 및 고기 로스가 없습니다</p>
+            <div className="bbp-box">
+              <img className="comf" src={BP} alt="comfortable" />
+              <div className="com">
+                <h1 className="com1">비용절감</h1>
+                <p className="com2">
+                  손질이 완료된 원팩 납품으로 고기 담당자에
+                </p>
+                <p className="com3">
+                  들어가는 인건비용 및 고기 로스가 없습니다
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      <section className="main-store">
+      <section id="main-store" section className="main-store">
         <div className="site">
-          <div className="si">마장동 </div>
+          <div className="si">마장규 </div>
           <div className="o">o</div>
           <div className="sii">가맹점 현황</div>
         </div>
-        <p className="ar">전국에 위치한 마장동 고기집을 확인해보세요</p>
+        <p className="ar">전국에 위치한 마장동 고깃집을 확인해보세요</p>
         <a href="https://mjdgo.com/36" className="all">
           전국 지점 보기 👆🏻{" "}
         </a>
@@ -219,7 +227,7 @@ const main = () => {
       </section>
 
       <section className="main-money1">
-        <div className="money-text1">마장동 고기집의 안정적인 수익</div>
+        <div className="money-text1">마장규 고깃집의 안정적인 수익</div>
         <div className="money-text2">수익안내</div>
         <table className="money-table">
           <thead>
@@ -268,7 +276,7 @@ const main = () => {
 
       <section className="main-startups">
         <div className="startups">
-          고기집은 역시, <div className="startups-name">마장동</div>
+          고깃집은 역시, <div className="startups-name">마장규</div>
         </div>
         <div className="startups-information">
           <p>창업에 꼭 필요한 비용만으로 구성하였습니다.</p>
@@ -384,7 +392,7 @@ const main = () => {
           </div>
         </div>
       </section>
-      <section className="Inquiry">
+      <section id="Inquiry" section className="Inquiry">
         <div className="Inquiry-text">창업 문의</div>
         <div className="Inquiry-text2">
           <p>창업문의를 남겨주시면</p>
